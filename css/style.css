@@ -13,12 +13,10 @@ header{
 }
 
 nav{
-    display: flex;
-    align-items: center;
     margin-left: 411px;
 }
 
-nav a{
+a{
     text-decoration: none;
 font-family: 'Poppins';
 font-style: normal;
@@ -39,7 +37,7 @@ margin-right: 51px;
     opacity: 1;
 }
 
-nav button{
+button{
     background: #40a3f8;
     border: 0;
     border-radius: 5px;
