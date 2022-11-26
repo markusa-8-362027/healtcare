@@ -34,12 +34,15 @@ margin-right: 51px;
 }
 
 .find{
-       width: 382px;
+       width: 566px;
+       margin-left: 135px;
 }
 
 .find form{
        display: flex;
        flex-direction: row;
+       margin: 13px;
+       background-color: #fff;
 }
 
 .find input{
@@ -73,4 +76,8 @@ color: #FFFFFF;
 
 footer{
        margin-top: 34px;
+}
+
+footer input{
+       margin-bottom: 12px;
 }
