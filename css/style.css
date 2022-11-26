@@ -34,11 +34,17 @@ margin-right: 51px;
 }
 
 .find{
+       display: flex;
+       flex-wrap: nowrap;
        width: 382px;
 }
 
 .find input{
        width: 216px;
+}
+
+.steps{
+       text-align: center;
 }
 
 button{
