@@ -35,8 +35,13 @@ margin-right: 51px;
 
 .find{
        display: flex;
-       flex-wrap: nowrap;
+       flex-direction: column;
        width: 382px;
+}
+
+.find form{
+       display: flex;
+       flex-direction: row;
 }
 
 .find input{
