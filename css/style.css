@@ -34,8 +34,6 @@ margin-right: 51px;
 }
 
 .find{
-       display: flex;
-       flex-direction: column;
        width: 382px;
 }
 
@@ -46,6 +44,10 @@ margin-right: 51px;
 
 .find input{
        width: 216px;
+}
+
+.find button{
+       width: 70px;
 }
 
 .steps{
