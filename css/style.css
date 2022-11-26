@@ -33,6 +33,14 @@ margin-right: 51px;
     opacity: 1;
 }
 
+.find{
+       width: 382px;
+}
+
+.find input{
+       width: 216px;
+}
+
 button{
     background: #40a3f8;
     border: 0;
