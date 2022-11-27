@@ -36,6 +36,7 @@ margin-right: 51px;
 .find{
        width: 566px;
        margin-left: 135px;
+       margin-top: 254px;
 }
 
 .find form{
@@ -47,6 +48,7 @@ margin-right: 51px;
 
 .find input{
        width: 216px;
+       margin-right: 19px;
 }
 
 .find button{
@@ -55,6 +57,20 @@ margin-right: 51px;
 
 .steps{
        text-align: center;
+}
+
+.best{
+       width: 506px;
+       margin-left: 103px;
+}
+
+.service{
+       text-align: center;
+       width: 1177px;
+}
+
+.service p{
+       width: 480px;
 }
 
 button{
