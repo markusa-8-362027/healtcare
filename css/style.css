@@ -1,4 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&family=Roboto&display=swap');
+
+body{
+       background-image: url('/Group 1878.png');
+       background-size: cover;
+}
 
 .top{
        background: #eff8fa;
@@ -28,43 +34,123 @@ opacity: 0.3;
 margin-right: 51px;
 }
 
+span{
+       color: #40a3f8;
+}
+
 .home{
     color: #40A3F8;
     opacity: 1;
 }
 
 .find{
-       width: 566px;
-       margin-left: 135px;
+       background-image: url('/Group 1877.png');
+       background-size: cover;
+       padding-left: 135px;
+       display: flex;
+}
+
+.find-left{
        margin-top: 254px;
+}
+
+h1{
+       width: 482px;
+       font-family: 'Roboto';
+font-style: normal;
+font-weight: 700;
+font-size: 48px;
+line-height: 70px;
+/* or 146% */
+
+
+color: #3E3E3E;
+}
+
+p{
+       font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+line-height: 30px;
+/* or 167% */
+
+letter-spacing: 0.02em;
+}
+
+li{
+       font-size: 16px;
+color: #3D3D3F;
+}
+
+.find p{
+       margin-top: 31px;
+       margin-bottom: 50px;
+       width: 480px;
+font-size: 14px;
+color: rgba(117, 117, 117, 0.46);
 }
 
 .find form{
        display: flex;
        flex-direction: row;
-       margin: 13px;
+       justify-content: center;
+       align-items: center;
        background-color: #fff;
+       width: 566px;
+height: 86px;
+background: #FFFFFF;
+box-shadow: 0px 4px 22px rgba(228, 245, 252, 0.3);
+border-radius: 8px;
 }
 
-.find input{
+.find input, .find select{
        width: 216px;
+height: 59px;
        margin-right: 19px;
+       background: rgba(245, 246, 250, 0.52);
+border-radius: 8px;
+border: 0;
+padding-left: 27px;
 }
 
 .find button{
        width: 70px;
+       height: 59px;
+}
+
+.find img{
+       margin-top: 129px;
+       height: 700px;
 }
 
 .steps{
+       display: flex;
        text-align: center;
+       padding-top: 75px;
 }
 
 .best{
+       display: flex;
        width: 506px;
        margin-left: 103px;
 }
 
+.best-right{
+       margin-left: 103px;
+}
+
+.best p{
+       margin-top: 24px;
+       margin-bottom: 3px;
+       font-size: 18px;
+color: rgba(61, 61, 63, 0.7);
+
+}
+
 .service{
+       display: flex;
+       flex-direction: column;
+       align-items: center;
        text-align: center;
        width: 1177px;
 }
@@ -77,8 +163,7 @@ button{
     background: #40a3f8;
     border: 0;
     border-radius: 5px;
-    width: 142px;
-height: 47px;
+    padding: 10px 20px;
     font-family: 'Poppins';
 font-style: normal;
 font-weight: 500;
@@ -90,8 +175,44 @@ line-height: 22px;
 color: #FFFFFF;
 }
 
+.doctors{
+       display: flex;
+       align-items: center;
+       flex-direction: column;
+}
+
+.row{
+       justify-content: center;
+}
+
+.card{
+       margin-right: 36px;
+       margin-bottom: 58px;
+       padding-bottom: 20px;
+       padding-top: 10px;
+       align-items: center;
+       width: 267px;
+background: linear-gradient(138.88deg, rgba(254, 254, 254, 0) -2.44%, #F9F9F9 -2.43%, rgba(254, 254, 254, 0.51) 98.26%);
+/* Stock */
+
+border: 1px solid #EEEFF1;
+filter: drop-shadow(0px 4px 120px rgba(0, 0, 0, 0.05));
+border-radius: 10px;
+}
+
+.apps{
+       display: flex;
+}
+
+.clients{
+       display: flex;
+       flex-direction: column;
+       align-items: center;
+}
+
 footer{
        margin-top: 34px;
+       padding-top: 45px;
 }
 
 footer input{
