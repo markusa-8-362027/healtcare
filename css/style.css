@@ -6,6 +6,10 @@ body{
        background-size: cover;
 }
 
+body>*:nth-child(n + 3){
+       margin-top: 75px;
+}
+
 .top{
        background: #eff8fa;
        margin-top: 0;
@@ -54,8 +58,11 @@ span{
        margin-top: 254px;
 }
 
-h1{
+.find h1, .best h1{
        width: 482px;
+}
+
+h1{
        font-family: 'Roboto';
 font-style: normal;
 font-weight: 700;
@@ -125,8 +132,37 @@ padding-left: 27px;
 
 .steps{
        display: flex;
+       flex-direction: column;
        text-align: center;
        padding-top: 75px;
+       margin: 0 135px;
+}
+
+.steps__frame{
+       margin-top: 50px;
+       display: flex;
+       align-items: center;
+       justify-content: space-between;
+}
+
+.steps__frame div{
+       width: 319px;
+}
+
+.steps__frame h1{
+      
+
+font-size: 20px;
+line-height: 32px;
+/* identical to box height, or 160% */
+
+
+color: #3D3D3F;
+
+}
+
+.steps__frame p{
+       margin-top: 21px;
 }
 
 .best{
@@ -152,10 +188,40 @@ color: rgba(61, 61, 63, 0.7);
        flex-direction: column;
        align-items: center;
        text-align: center;
-       width: 1177px;
 }
 
-.service p{
+.service_card{
+       display: flex;
+       justify-content: space-between;
+       width: 82%;
+       margin-top: 75px;
+}
+
+.service_card div{
+       display: flex;
+       flex-direction: column;
+       align-items: center;
+       width: 349px;
+       background-color: #fff;
+       border-radius: 10px;
+       padding: 61px 62px 31px;
+}
+
+.service_card h1{
+margin-top: 16px;
+font-size: 18px;
+line-height: 30px;
+}
+
+.service_card p{
+       font-weight: 400;
+font-size: 14px;
+line-height: 22px;
+margin-top: 23px;
+color: #999999;
+}
+
+.service>p{
        width: 480px;
 }
 
@@ -183,6 +249,7 @@ color: #FFFFFF;
 
 .row{
        justify-content: center;
+       margin-top: 63px;
 }
 
 .card{
@@ -202,12 +269,115 @@ border-radius: 10px;
 
 .apps{
        display: flex;
+       margin-top: 120px;
+}
+
+.apps-right{
+       margin-left: -66px;
+       margin-top: 192px;
+}
+
+.apps p{
+       width: 461px;
+}
+
+.apps button{
+       padding: 0;
+       margin-right: 13px;
 }
 
 .clients{
        display: flex;
        flex-direction: column;
        align-items: center;
+}
+
+.clients__card{
+       display: flex;
+       flex-direction: row;
+       justify-content: space-between;
+       width: 82%;
+       margin-top: 93px;
+}
+
+.clients__card>div{
+       display: flex;
+       flex-direction: column;
+       align-items: center;
+       width: 370px;
+       background: linear-gradient(132.1deg, rgba(255, 255, 255, 0.88) 0.65%, #FAFAFA 103.13%);
+/* Shadow */
+
+box-shadow: 0px 4px 22px;
+padding: 21px 17px 32px 48px;
+       border-radius: 10px;
+}
+
+.clients__card>div div{
+       display: flex;
+       flex-direction: column;
+       align-items: flex-start;
+       width: 280px;
+       margin-bottom: 28px;
+}
+
+.clients__card h1{
+       font-weight: 700;
+font-size: 20px;
+line-height: 55px;
+/* identical to box height, or 275% */
+
+
+/* textv 2 */
+
+color: #3D3D3F;
+}
+
+.clients__card p{
+       font-weight: 400;
+font-size: 16px;
+line-height: 25px;
+/* or 156% */
+
+
+color: #454D5D;
+}
+
+body>div.time{
+       display: flex;
+       justify-content: center;
+       width: 100%;
+       margin-top: 170px;
+}
+
+.time h1{
+       font-weight: 700;
+font-size: 40px;
+line-height: 47px;
+text-transform: capitalize;
+       color: #fff;
+       width: 402px;
+}
+
+.time button{
+       background-color: #fff;
+       color: #40a3f8;
+       margin-top: 21px;
+}
+
+.time img{
+       height: 452px;
+       margin-top: -193px;
+       margin-left: 140px;
+}
+
+.time__block{
+       background-color: #40a3f8;
+       border-radius: 12px;
+       padding: 82px 118px;
+       width: 82%;
+       height: 341px;
+       display: flex;
 }
 
 footer{
