@@ -1,6 +1,16 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&family=Roboto&display=swap');
 
+@media(max-width: 1375px) {
+       .best, .apps{
+              flex-wrap: wrap;
+       }
+
+       .time img{
+              display: none;
+       }
+}
+
 body{
        background-image: url('/Group 1878.png');
        background-size: cover;
@@ -60,6 +70,7 @@ span{
        background-size: cover;
        padding-left: 135px;
        display: flex;
+       flex-wrap: wrap;
 }
 
 .find-left{
@@ -149,6 +160,7 @@ padding-left: 27px;
 .steps__frame{
        margin-top: 50px;
        display: flex;
+       flex-wrap: wrap;
        align-items: center;
        justify-content: space-between;
 }
@@ -201,6 +213,7 @@ color: rgba(61, 61, 63, 0.7);
 .service_card{
        display: flex;
        justify-content: space-between;
+       flex-wrap: wrap;
        width: 82%;
        margin-top: 75px;
 }
@@ -213,6 +226,7 @@ color: rgba(61, 61, 63, 0.7);
        background-color: #fff;
        border-radius: 10px;
        padding: 61px 62px 31px;
+       margin-bottom: 20px;
 }
 
 .service_card h1{
@@ -281,7 +295,6 @@ border-radius: 10px;
 
 .apps{
        display: flex;
-       margin-top: 120px;
 }
 
 .apps-right{
@@ -306,6 +319,7 @@ border-radius: 10px;
 
 .clients__card{
        display: flex;
+       flex-wrap: wrap;
        flex-direction: row;
        justify-content: space-between;
        width: 82%;
@@ -324,6 +338,7 @@ border: 1px solid #EEEFF1;
 filter: drop-shadow(0px 4px 120px rgba(0, 0, 0, 0.05));
 border-radius: 10px;
 padding: 21px 17px 32px 48px;
+margin-bottom: 20px;
 }
 
 .clients__card>div>div{
@@ -367,6 +382,7 @@ color: #454D5D;
 body>div.time{
        display: flex;
        justify-content: center;
+       flex-wrap: wrap;
        width: 100%;
        margin-top: 170px;
 }
