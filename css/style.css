@@ -4,10 +4,72 @@
 @media(max-width: 1375px) {
        .best, .apps{
               flex-wrap: wrap;
+              padding-left: 0;
+              margin-left: 0;
        }
 
-       .time img{
+       body>div.find:nth-child(n){
+              margin-top: 0;
+              padding-bottom: 50px;
+       }
+
+       body>div:nth-child(n){
+              justify-content: center;
+              align-items: center;
+              margin: 75px 0;
+              padding: 0 9%;
+              text-align: center;
+       }
+
+       ul{
+              text-align: left;
+       }
+
+       div.apps-right, div.best-right, div.card{
+              display: flex;
+              align-items: center;
+              flex-direction: column;
+       }
+
+       div.apps-right, div.best-right, div.clients__card{
+              margin: 0;
+       }
+
+       .find img, .best img, .apps img, .time img{
               display: none;
+       }
+
+       div.apps-right, div.find-left{
+              margin-top: 30px;
+       }
+
+       div.find form{
+              flex-direction: column;
+              width: auto;
+              height: auto;
+              padding: 10px;
+       }
+
+       div.find input, div.find select{
+              margin-bottom: 10px;
+       }
+
+       div.best{
+              width: 100%;
+       }
+
+       div.service>p{
+              width: auto;
+       }
+
+       div.service_card, div.clients__card{
+              justify-content: center;
+       }
+
+       div.steps__frame{
+              display: flex;
+              justify-content: center;
+              width: 82%;
        }
 }
 
